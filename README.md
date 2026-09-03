@@ -126,3 +126,4 @@ Les projets seront notés sur un total de **250 points**, répartis de la façon
 * **Miriam Caisse** – Miriam.Caisse@usherbrooke.ca (FAC. GÉNIE Électrique)
 * **Jordan Gagnon** – Jordan.Gagnon@usherbrooke.ca (FAC. GÉNIE Électrique)
 * **Alyson Bourque** - Alyson.Bourque@USherbrooke.ca (FAC. GÉNIE Électrique)
+* **Céleste-Lyi Martel** - Celeste-Lyi.Martel@USherbrooke.ca (FAC. GÉNIE Robotique)
