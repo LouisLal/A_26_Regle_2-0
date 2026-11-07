@@ -665,7 +665,7 @@
         "uuid": "4ea62c4f-5efc-4560-ab7a-35670542d376"
       }
     ],
-    "used_designators": "OLED1,U1-2,#PWR1-2,C1-4,R1-2",
+    "used_designators": "OLED1,U1-2,#PWR1-2,C1-4,IC1,R1-2",
     "variants": []
   },
   "sheets": [

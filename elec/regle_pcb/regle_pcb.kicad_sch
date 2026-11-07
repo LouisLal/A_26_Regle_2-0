@@ -1702,6 +1702,672 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PIC16F19156:PIC16LF19156T-I_SO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 57.15 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PIC16LF19156T-I_SO"
+				(at 57.15 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P1030X265-28N"
+				(at 57.15 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19155-56-75-76-85-86-Data-Sheet-40001923B.pdf"
+				(at 57.15 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "8-bit Microcontrollers - MCU 28KB Flash, 2KB RAM, 256KB EE, LCD, 12-bit ADC2, DAC, LP COMP, PWM, CCP, CWG, SMT, ZCD, PPS, RTCC, HLT, WWDT, PMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "2.65"
+				(at 57.15 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Microchip"
+				(at 57.15 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PIC16LF19156T-I/SO"
+				(at 57.15 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "579-PIC16LF19156TISO"
+				(at 57.15 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=579-PIC16LF19156TISO"
+				(at 57.15 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 57.15 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 57.15 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "PIC16LF19156T-I_SO_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 55.88 -35.56)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VPP/~{MCLR}/RE3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "SEG0/RA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "SEG1/RA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "SEG2/RA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "SEG3/RA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "COM0/SEG4/RA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "VBAT/RA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "VSS_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "SEG7/RA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "SEG6/RA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "RC0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "RC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "COM2/SEG18/RC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "SEG19/RC3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -33.02 180)
+					(length 5.08)
+					(name "RC4/SEG20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -30.48 180)
+					(length 5.08)
+					(name "VLCD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -27.94 180)
+					(length 5.08)
+					(name "RC6/VLCD2/COM5/SEG22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -25.4 180)
+					(length 5.08)
+					(name "RC7/VLCD1/COM4/SEG23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -22.86 180)
+					(length 5.08)
+					(name "VSS_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -20.32 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -17.78 180)
+					(length 5.08)
+					(name "RB0/SEG8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -15.24 180)
+					(length 5.08)
+					(name "RB1/SEG9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -12.7 180)
+					(length 5.08)
+					(name "RB2/CFLY1/COM7/SEG10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -10.16 180)
+					(length 5.08)
+					(name "RB3/CFLY2/COM6/SEG11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -7.62 180)
+					(length 5.08)
+					(name "RB4/COM0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -5.08 180)
+					(length 5.08)
+					(name "RB5/COM1/SEG13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -2.54 180)
+					(length 5.08)
+					(name "RB6/ICSPCLK/SEG14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 0 180)
+					(length 5.08)
+					(name "RB7/ICSPDAT/SEG15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2146,6 +2812,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 215.9) (xy 54.61 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2714052-6715-4cb3-8fdd-b64bd48c0e14")
+	)
+	(wire
+		(pts
 			(xy 165.1 171.45) (xy 165.1 175.26)
 		)
 		(stroke
@@ -2193,6 +2869,16 @@
 			(type default)
 		)
 		(uuid "bde548a5-ab14-451d-9ea4-763b8ab01d5d")
+	)
+	(wire
+		(pts
+			(xy 120.65 215.9) (xy 115.57 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ad40ce-285f-40fc-b2d6-20c5bd6f418a")
 	)
 	(wire
 		(pts
@@ -2284,6 +2970,16 @@
 		)
 		(uuid "f9ac7f01-eed3-42dd-9095-ed315700c246")
 	)
+	(label "accel_clock"
+		(at 50.8 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33116198-6120-4a26-bbf6-48df2d3b6c8b")
+	)
 	(label "3V"
 		(at 165.1 175.26 0)
 		(effects
@@ -2304,7 +3000,7 @@
 		)
 		(uuid "6dbbdb74-5290-47b4-87a2-35f5feec0e95")
 	)
-	(label "accel_data - pin 15"
+	(label "accel_data"
 		(at 154.94 160.02 180)
 		(effects
 			(font
@@ -2324,7 +3020,7 @@
 		)
 		(uuid "8e906777-d7d8-4b82-accd-d8f208f6152d")
 	)
-	(label "accel_clock - pin 14"
+	(label "accel_clock"
 		(at 154.94 152.4 180)
 		(effects
 			(font
@@ -2353,6 +3049,16 @@
 			(justify right bottom)
 		)
 		(uuid "d5a84a9a-5dba-4655-8654-017081f50058")
+	)
+	(label "accel_data"
+		(at 120.65 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fde58b8c-9ca2-409c-9a3c-7f1979989a03")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3954,6 +4660,250 @@
 			(project "regle_pcb"
 				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PIC16F19156:PIC16LF19156T-I_SO")
+		(at 54.61 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c34fbf16-62af-4c83-a565-71fea2263ef9")
+		(property "Reference" "IC1"
+			(at 85.09 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PIC16LF19156T-I_SO"
+			(at 85.09 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P1030X265-28N"
+			(at 111.76 277.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19155-56-75-76-85-86-Data-Sheet-40001923B.pdf"
+			(at 111.76 377.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "8-bit Microcontrollers - MCU 28KB Flash, 2KB RAM, 256KB EE, LCD, 12-bit ADC2, DAC, LP COMP, PWM, CCP, CWG, SMT, ZCD, PPS, RTCC, HLT, WWDT, PMD"
+			(at 54.61 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.65"
+			(at 111.76 577.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 111.76 677.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PIC16LF19156T-I/SO"
+			(at 111.76 777.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "579-PIC16LF19156TISO"
+			(at 111.76 877.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=579-PIC16LF19156TISO"
+			(at 111.76 977.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 111.76 1077.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 111.76 1177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "8e2d116b-feee-4829-98d7-1e731a97f2a4")
+		)
+		(pin "4"
+			(uuid "bbf5591e-139e-4292-b07b-a40f5b223467")
+		)
+		(pin "15"
+			(uuid "3f1ec9ca-2422-4362-b528-e3055bc972fc")
+		)
+		(pin "18"
+			(uuid "b69019c7-0dcb-4d41-9e94-29088a626725")
+		)
+		(pin "28"
+			(uuid "a2823442-b7be-4afa-ae0e-ae129c8a5be3")
+		)
+		(pin "9"
+			(uuid "dafeeabe-18a4-4014-a3d6-f1e66f1f9bcd")
+		)
+		(pin "2"
+			(uuid "f01fd962-b22c-4905-83d5-dd44f2879e84")
+		)
+		(pin "13"
+			(uuid "35034bae-d21a-445e-8887-cf2a54baeadc")
+		)
+		(pin "6"
+			(uuid "b8bc03c3-7c0c-4fdf-a93c-f98da54698b9")
+		)
+		(pin "7"
+			(uuid "ba761945-b9a6-4031-bebf-5de54ec24ece")
+		)
+		(pin "3"
+			(uuid "5645dcca-9e88-4883-8e89-f5ab4f12a82d")
+		)
+		(pin "5"
+			(uuid "e4e91d54-9a58-4801-a132-084e74ca7172")
+		)
+		(pin "10"
+			(uuid "2e96474a-d5c3-4bb0-a73c-887e52dd0a34")
+		)
+		(pin "12"
+			(uuid "b9addfb9-41ac-4b65-a1f3-4a2dad75af52")
+		)
+		(pin "16"
+			(uuid "23109bda-6ced-461a-9cbf-e853134ef657")
+		)
+		(pin "14"
+			(uuid "5c4d8ba6-52c9-449b-982e-7943b38e247c")
+		)
+		(pin "17"
+			(uuid "7999f822-5543-4d53-86bb-7d1e77043b35")
+		)
+		(pin "20"
+			(uuid "284fc646-517d-422c-83f5-226b43616bb3")
+		)
+		(pin "21"
+			(uuid "709855e2-1458-4726-ad9e-732bfc8e1aae")
+		)
+		(pin "22"
+			(uuid "1dbb5b00-b2c5-4cf2-b60f-c795c9213c12")
+		)
+		(pin "23"
+			(uuid "08cf701e-fda5-45ad-9a80-0f4b908756f3")
+		)
+		(pin "24"
+			(uuid "bb2a41bb-2745-4ccc-a4b6-7cc257aafff1")
+		)
+		(pin "8"
+			(uuid "6a2ab09e-d19f-4616-953f-0cc1d1fbd15a")
+		)
+		(pin "11"
+			(uuid "24b05712-3c2f-4655-8a17-cee1ccf91c48")
+		)
+		(pin "19"
+			(uuid "16dab2a2-9534-4635-a897-aedbd4ca60a4")
+		)
+		(pin "25"
+			(uuid "8c58fda2-18c8-4567-a30b-4266b2538b5a")
+		)
+		(pin "26"
+			(uuid "20d1fdad-586e-410b-bdcc-7176dd1d8d7f")
+		)
+		(pin "27"
+			(uuid "0e7aa5b8-6f40-4e74-9c0e-f511619c93a1")
+		)
+		(instances
+			(project "regle_pcb"
+				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
