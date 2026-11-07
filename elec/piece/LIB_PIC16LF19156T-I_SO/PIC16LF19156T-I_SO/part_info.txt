@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=PIC16LF19156T-I/SO
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=28
+Version=1.1
+Released=2023-09-03 07:47:05
+Downloaded=2026-11-07 16:51:04
+3D=Y
