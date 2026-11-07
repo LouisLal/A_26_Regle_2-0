@@ -3084,6 +3084,273 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch_Marco:SLW-88229-2-SMT-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at -2.54 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SLW-88229-2-SMT-TR"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SLW-88229-2-SMT-TR:SW_SLW-88229-2-SMT-TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/SLW-88229-2-SMT-TR_Same_Sky.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "8.8 x 2 x 2.9 mm, 2 mm Raised Slide Actuator, Right-Angle, Surface Mount, Slide Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/SLW-88229-2-SMT-TR_Same_Sky.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Same Sky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "SLW-88229-2-SMT-TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.01"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/SLW-88229-2-SMT-TR/Same+Sky/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SLW-88229-2-SMT-TR_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.921 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.921 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3213,12 +3480,6 @@
 		(uuid "1ee59a7a-bea5-42e0-a449-233258e422bb")
 	)
 	(junction
-		(at 40.64 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21dfaf03-9395-41b5-975c-f6faae4225f5")
-	)
-	(junction
 		(at 341.63 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3255,6 +3516,12 @@
 		(uuid "66d85417-8a91-42db-85b7-c982188d4acf")
 	)
 	(junction
+		(at 40.64 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71c79526-1d6b-4fd9-847b-df7dc594a9cb")
+	)
+	(junction
 		(at 99.06 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3271,12 +3538,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88e0599b-bccb-473a-a63a-58310eb99d05")
-	)
-	(junction
-		(at 168.91 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9156ed52-eca1-4fc7-b50a-43b632ed6414")
 	)
 	(junction
 		(at 99.06 121.92)
@@ -3333,12 +3594,6 @@
 		(uuid "ce0686c1-8c92-4e25-a6bb-7100c6226b01")
 	)
 	(junction
-		(at 168.91 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5ea07e1-eea6-4dd1-85ea-3bbeb23c099f")
-	)
-	(junction
 		(at 261.62 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3357,6 +3612,10 @@
 	(no_connect
 		(at 322.58 162.56)
 		(uuid "5b86da08-5e7e-42d8-9c1d-3881de38ea06")
+	)
+	(no_connect
+		(at 72.39 34.29)
+		(uuid "6551b187-9cac-4465-8ec1-21841ceaf152")
 	)
 	(wire
 		(pts
@@ -3387,6 +3646,16 @@
 			(type default)
 		)
 		(uuid "0a6f6e47-32a8-4ec0-a43d-41602635afd8")
+	)
+	(wire
+		(pts
+			(xy 72.39 29.21) (xy 81.28 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0ddf9e-489a-4da1-b551-d2a4053ff275")
 	)
 	(wire
 		(pts
@@ -3441,16 +3710,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 29.21) (xy 40.64 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18de3b55-70aa-4455-a27f-eca5adefd5e6")
-	)
-	(wire
-		(pts
 			(xy 167.64 43.18) (xy 163.83 43.18)
 		)
 		(stroke
@@ -3459,6 +3718,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "19a3b858-c34a-498f-8a39-61e6c41fdf11")
+	)
+	(wire
+		(pts
+			(xy 85.09 203.2) (xy 99.06 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1d000b-eaaf-467b-895f-233b9472572e")
 	)
 	(wire
 		(pts
@@ -3482,7 +3751,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 121.92) (xy 99.06 121.92)
+			(xy 63.5 121.92) (xy 77.47 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3529,26 +3798,6 @@
 			(type default)
 		)
 		(uuid "24ddd4df-7280-4012-8030-a75ba778f738")
-	)
-	(wire
-		(pts
-			(xy 198.12 144.78) (xy 198.12 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e285be-129c-4346-9078-318a1d2c9eeb")
-	)
-	(wire
-		(pts
-			(xy 168.91 203.2) (xy 198.12 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aee10f6-4b32-40ac-8cf5-f7810c9c1a0f")
 	)
 	(wire
 		(pts
@@ -3649,6 +3898,16 @@
 			(type default)
 		)
 		(uuid "45346140-0e2b-4a8d-a9b3-60149c4b63a4")
+	)
+	(wire
+		(pts
+			(xy 57.15 31.75) (xy 40.64 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e17c2e-a52c-46de-a83c-b217eb030d1c")
 	)
 	(wire
 		(pts
@@ -3802,7 +4061,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 203.2) (xy 99.06 203.2)
+			(xy 63.5 203.2) (xy 77.47 203.2)
 		)
 		(stroke
 			(width 0)
@@ -3812,7 +4071,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 162.56) (xy 99.06 162.56)
+			(xy 63.5 162.56) (xy 77.47 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3939,16 +4198,6 @@
 			(type default)
 		)
 		(uuid "a3771c1a-d148-41e5-ae30-c9737584b6c7")
-	)
-	(wire
-		(pts
-			(xy 198.12 121.92) (xy 168.91 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67f1ed2-9122-4afe-ab32-0ef1c58ccfe8")
 	)
 	(wire
 		(pts
@@ -4093,6 +4342,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 121.92) (xy 99.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb1fdba-a927-4555-9a99-937fc887b3dc")
+	)
+	(wire
+		(pts
 			(xy 254 160.02) (xy 271.78 160.02)
 		)
 		(stroke
@@ -4183,6 +4442,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 162.56) (xy 99.06 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea863908-f58f-4836-910b-01412a12e6b1")
+	)
+	(wire
+		(pts
 			(xy 99.06 162.56) (xy 128.27 162.56)
 		)
 		(stroke
@@ -4213,16 +4482,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 185.42) (xy 198.12 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa3dd88a-5752-4418-992d-b7719fdb0cf9")
-	)
-	(wire
-		(pts
 			(xy 40.64 49.53) (xy 40.64 43.18)
 		)
 		(stroke
@@ -4232,7 +4491,7 @@
 		(uuid "fc55e960-cac9-4594-8115-b1cc1f36bca7")
 	)
 	(label "CP_1"
-		(at 76.2 121.92 0)
+		(at 63.5 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4462,7 +4721,7 @@
 		(uuid "8f274e00-1306-4063-a67e-80b38397a818")
 	)
 	(label "CP_3"
-		(at 76.2 203.2 0)
+		(at 63.5 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4512,7 +4771,7 @@
 		(uuid "a53090d9-8d5e-4844-9e57-ed5f8d8be98d")
 	)
 	(label "3V"
-		(at 40.64 29.21 0)
+		(at 81.28 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4632,7 +4891,7 @@
 		(uuid "d5a84a9a-5dba-4655-8654-017081f50058")
 	)
 	(label "CP_2"
-		(at 76.2 162.56 0)
+		(at 63.5 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4950,6 +5209,87 @@
 			(project "regle_pcb"
 				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 203.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18375209-70e4-4a2f-8498-2ecfc905a1fe")
+		(property "Reference" "R5"
+			(at 78.74 199.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "270"
+			(at 78.74 201.168 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 81.28 204.978 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d997650f-efae-44d1-8431-d628346b31a4")
+		)
+		(pin "2"
+			(uuid "32e0450e-181f-4a95-a4eb-4d37dd429247")
+		)
+		(instances
+			(project "regle_pcb"
+				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5813,6 +6153,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 81.28 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ea22919-5691-4166-ad22-a789cdb83ac4")
+		(property "Reference" "R3"
+			(at 78.74 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "270"
+			(at 78.74 119.888 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 81.28 123.698 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "720d3b88-5e41-4e09-9afe-6498779ff300")
+		)
+		(pin "2"
+			(uuid "87be38b4-536a-4117-a174-c1067e39b6bb")
+		)
+		(instances
+			(project "regle_pcb"
+				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 34.29 39.37 0)
 		(unit 1)
@@ -6632,90 +7053,6 @@
 	)
 	(symbol
 		(lib_id "LED:SM0805HCL")
-		(at 198.12 144.78 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abe486c6-43a2-4013-9628-87fc810c6e14")
-		(property "Reference" "D6"
-			(at 204.47 163.8299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM0805HCL"
-			(at 204.47 166.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SM0805HCL_BIV"
-			(at 198.12 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "SM0805HCL"
-			(at 198.12 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "55e235ac-a660-401a-8b59-cbbadd951c5e")
-		)
-		(pin "1"
-			(uuid "05d5f776-2c99-4663-ab46-58ff498aca6f")
-		)
-		(instances
-			(project "regle_pcb"
-				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SM0805HCL")
 		(at 128.27 121.92 270)
 		(unit 1)
 		(body_style 1)
@@ -7280,6 +7617,245 @@
 			(project "regle_pcb"
 				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3f4a036-f771-4635-85d5-81e2e46cb38f")
+		(property "Reference" "R4"
+			(at 78.74 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "270"
+			(at 78.74 160.528 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 81.28 164.338 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f045b8c4-5e58-4459-abda-7c68f032dc2f")
+		)
+		(pin "2"
+			(uuid "aa85deae-2007-43b8-a6b1-a2eac6b669f8")
+		)
+		(instances
+			(project "regle_pcb"
+				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch_Marco:SLW-88229-2-SMT-TR")
+		(at 64.77 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa7a9e8d-4f9c-4345-921e-f681846e7f96")
+		(property "Reference" "S2"
+			(at 64.77 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SLW-88229-2-SMT-TR"
+			(at 64.77 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SLW-88229-2-SMT-TR:SW_SLW-88229-2-SMT-TR"
+			(at 64.77 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/SLW-88229-2-SMT-TR_Same_Sky.pdf"
+			(at 64.77 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "8.8 x 2 x 2.9 mm, 2 mm Raised Slide Actuator, Right-Angle, Surface Mount, Slide Switch"
+			(at 64.77 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/SLW-88229-2-SMT-TR_Same_Sky.pdf"
+			(at 64.77 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Same Sky"
+			(at 64.77 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "SLW-88229-2-SMT-TR"
+			(at 64.77 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.01"
+			(at 64.77 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/SLW-88229-2-SMT-TR/Same+Sky/view-part/"
+			(at 64.77 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 64.77 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "d7b30790-1dab-40bd-8639-aab2dde92ad7")
+		)
+		(pin "2"
+			(uuid "906e4fb8-0dab-4eba-a9b4-241826dcb1da")
+		)
+		(pin "3"
+			(uuid "9c59ada0-963b-40e9-91d5-8b3aa8e4aa34")
+		)
+		(instances
+			(project "regle_pcb"
+				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
+					(reference "S2")
 					(unit 1)
 				)
 			)
