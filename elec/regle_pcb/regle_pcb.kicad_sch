@@ -1991,7 +1991,7 @@
 	)
 	(symbol
 		(lib_id "01_regle:display_OLED")
-		(at 234.95 102.87 0)
+		(at 33.02 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2002,7 +2002,7 @@
 		(fields_autoplaced yes)
 		(uuid "26239ccd-dd8e-4b01-8109-97ece64e20ec")
 		(property "Reference" "OLED1"
-			(at 255.27 99.6949 0)
+			(at 53.34 88.2649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2013,7 +2013,7 @@
 			)
 		)
 		(property "Value" "n050-8848tswyg02-h14"
-			(at 255.27 102.2349 0)
+			(at 53.34 90.8049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2024,7 +2024,7 @@
 			)
 		)
 		(property "Footprint" "OLED-SMD_N050-8848TSWYG02-H14"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2035,7 +2035,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/N050-8848TSWYG02-H14/3115552.html"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2047,7 +2047,7 @@
 			)
 		)
 		(property "Description" "Controller Type:CH1115 chip Size:0.5 Dot Pixels:88x48 Operating Temperature:-40℃~+85℃ Operating Temperature:-40℃~+85℃ Type of Drive:Passive (PMOLED) Display Range:6.124x11.244mm Display Color:White Luminance:100cd/m2"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2059,7 +2059,7 @@
 			)
 		)
 		(property "SYMBOL" "N050-8848TSWYG02-H14"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2071,7 +2071,7 @@
 			)
 		)
 		(property "LCSC PART NAME" "0.50寸 白光 88x48像素分辨率 14PIN"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2083,7 +2083,7 @@
 			)
 		)
 		(property "SUPPLIERPART" "C2890604"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2095,7 +2095,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Wisevision(新智景)"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2107,7 +2107,7 @@
 			)
 		)
 		(property "MANUFACTURERPART" "N050-8848TSWYG02-H14"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2119,7 +2119,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" "-"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2131,7 +2131,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" "Extended Part"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2143,7 +2143,7 @@
 			)
 		)
 		(property "SUPPLIER" "LCSC"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2155,7 +2155,7 @@
 			)
 		)
 		(property "ADDINBOM" "yes"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2167,7 +2167,7 @@
 			)
 		)
 		(property "CONVERTTOPCB" "yes"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2179,7 +2179,7 @@
 			)
 		)
 		(property "FOOTPRINTNAME" "OLED-SMD_N050-8848TSWYG02-H14"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2191,7 +2191,7 @@
 			)
 		)
 		(property "MODELID" "012c5d2629a346f097c52c4fa0a6c8e2"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2203,7 +2203,7 @@
 			)
 		)
 		(property "MODELNAME" "OLED-SMD_N050-8848TSWYG02-H14"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2215,7 +2215,7 @@
 			)
 		)
 		(property "MODELTRANSFORM" "354.33,677.9514,0,0,0,0,0,-10.827,0"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2227,7 +2227,7 @@
 			)
 		)
 		(property "CONTROLLER TYPE" "CH1115 chip"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2239,7 +2239,7 @@
 			)
 		)
 		(property "SIZE" "0.5"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2251,7 +2251,7 @@
 			)
 		)
 		(property "DOT PIXELS" "88x48"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2263,7 +2263,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-40℃~+85℃"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2275,7 +2275,7 @@
 			)
 		)
 		(property "TYPE OF DRIVE" "Passive (PMOLED)"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2287,7 +2287,7 @@
 			)
 		)
 		(property "DISPLAY RANGE" "6.124x11.244mm"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2299,7 +2299,7 @@
 			)
 		)
 		(property "DISPLAY COLOR" "White"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2311,7 +2311,7 @@
 			)
 		)
 		(property "LUMINANCE" "100cd/m2"
-			(at 234.95 102.87 0)
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
