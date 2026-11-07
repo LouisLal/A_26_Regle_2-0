@@ -5133,7 +5133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032"
+		(property "Footprint" "batterie holder:BAT_1058TR"
 			(at 40.64 39.116 90)
 			(hide yes)
 			(show_name no)
@@ -5408,7 +5408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DISPLAY:LCD-S401M16KR"
+		(property "Footprint" "Display 3:LCD-S401M16KR"
 			(at 261.62 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5760,7 +5760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIS2HH12TR:PQFN50P200X200X100-12N"
+		(property "Footprint" "Accel:PQFN50P200X200X100-12N"
 			(at 297.18 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6592,7 +6592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS04-66-50-BK-260-SMT:SW_TS04-66-50-BK-260-SMT"
+		(property "Footprint" "Bouton C31:SW_TS04-66-50-BK-260-SMT"
 			(at 254 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7735,7 +7735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SLW-88229-2-SMT-TR:SW_SLW-88229-2-SMT-TR"
+		(property "Footprint" "switch alim:SW_SLW-865144-2A-N-SMT-TR"
 			(at 64.77 31.75 0)
 			(hide yes)
 			(show_name no)
