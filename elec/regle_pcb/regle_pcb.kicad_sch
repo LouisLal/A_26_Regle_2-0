@@ -943,6 +943,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
@@ -1445,6 +1568,184 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3351,7 +3652,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TSM-103-01-L-DV-P-TR:TSM-103-01-L-DV-P-TR"
+		(symbol "TSM-105-01-F-SH:TSM-105-01-F-SH"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3361,7 +3662,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -8.12 5.08 0)
+				(at -8.12 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3371,8 +3672,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "TSM-103-01-L-DV-P-TR"
-				(at -7.62 -7.62 0)
+			(property "Value" "TSM-105-01-F-SH"
+				(at -7.62 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3382,7 +3683,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TSM-103-01-L-DV-P-TR:SAMTEC_TSM-103-01-L-DV-P-TR"
+			(property "Footprint" "TSM-105-01-F-SH:SAMTEC_TSM-105-01-F-SH"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3394,7 +3695,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/TSM-103-01-L-DV-P-TR_Samtec.pdf"
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/TSM-105-01-F-SH_Samtec.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3406,7 +3707,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Description" "TSM - Samtec 2.54mm Dual Row Vertical Surface Mount Header  5.84mm Post Height (01) - Fast Stock"
+			(property "Description" "TSM - Samtec 2.54mm Single Row Horizontal Surface Mount Pin Header, 5.84mm Post Height -01 Lead Style"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3418,7 +3719,7 @@
 					(justify bottom)
 				)
 			)
-			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/TSM-103-01-L-DV-P-TR_Samtec.pdf"
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/TSM-105-01-F-SH_Samtec.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3442,7 +3743,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MPN" "TSM-103-01-L-DV-P-TR"
+			(property "MPN" "TSM-105-01-F-SH"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3454,7 +3755,7 @@
 					(justify bottom)
 				)
 			)
-			(property "SOURCE_URL" "https://www.snapeda.com/parts/TSM-103-01-L-DV-P-TR/Samtec+Inc./view-part/"
+			(property "PARTREV" "R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3466,10 +3767,34 @@
 					(justify bottom)
 				)
 			)
-			(symbol "TSM-103-01-L-DV-P-TR_0_0"
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/TSM-105-01-F-SH/Samtec+Inc./view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TSM-105-01-F-SH_0_0"
 				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 5.08)
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3479,7 +3804,7 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 2.54 0)
+					(at -12.7 5.08 0)
 					(length 5.08)
 					(name "01"
 						(effects
@@ -3497,7 +3822,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 2.54 180)
+					(at -12.7 2.54 0)
 					(length 5.08)
 					(name "02"
 						(effects
@@ -3533,7 +3858,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 0 180)
+					(at -12.7 -2.54 0)
 					(length 5.08)
 					(name "04"
 						(effects
@@ -3551,7 +3876,7 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 -2.54 0)
+					(at -12.7 -5.08 0)
 					(length 5.08)
 					(name "05"
 						(effects
@@ -3561,24 +3886,6 @@
 						)
 					)
 					(number "05"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "06"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "06"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3760,6 +4067,12 @@
 		(uuid "4d162f6b-8b3e-49ca-9e83-06f0710406c8")
 	)
 	(junction
+		(at 87.63 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b6c2144-48e2-490a-af58-2a3e517e4470")
+	)
+	(junction
 		(at 182.88 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3802,6 +4115,18 @@
 		(uuid "ab4acbf3-1cd6-4674-b9bf-a8b5e5351331")
 	)
 	(junction
+		(at 167.64 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba461451-14b4-489b-8d8e-8c8667b4b9c8")
+	)
+	(junction
+		(at 248.92 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcffc8fd-0166-4317-a253-2b5b852512a0")
+	)
+	(junction
 		(at 182.88 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3825,12 +4150,18 @@
 		(color 0 0 0 0)
 		(uuid "e96aecdd-1ec8-4a17-acbd-f5486f166dcd")
 	)
+	(junction
+		(at 248.92 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e1a12d-77fd-4917-990a-a242f6ceddd5")
+	)
 	(no_connect
 		(at 163.83 68.58)
 		(uuid "1cdf6e14-ba7f-4cf8-9bf4-167e00983e2f")
 	)
 	(no_connect
-		(at 266.7 85.09)
+		(at 283.21 120.65)
 		(uuid "2043fb91-2b32-4580-ba49-12420bcaf5a8")
 	)
 	(no_connect
@@ -3838,7 +4169,7 @@
 		(uuid "271400a3-1533-4e5e-abd9-f28900f7571a")
 	)
 	(no_connect
-		(at 266.7 74.93)
+		(at 283.21 110.49)
 		(uuid "52a38e07-58e0-4177-affc-88c854aaf131")
 	)
 	(no_connect
@@ -3857,13 +4188,25 @@
 		(at 163.83 71.12)
 		(uuid "b2aa5976-0d66-4ba7-837d-447f2ed357c8")
 	)
-	(no_connect
-		(at 102.87 60.96)
-		(uuid "b62559a4-8b0d-46d5-b6ce-3e541b17900b")
+	(wire
+		(pts
+			(xy 87.63 60.96) (xy 87.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053f94f2-0b32-4476-9cac-df143b77bd3d")
 	)
-	(no_connect
-		(at 196.85 118.11)
-		(uuid "c3ea7fba-f90c-42e4-86ad-1c8365d099df")
+	(wire
+		(pts
+			(xy 248.92 160.02) (xy 254 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0547e662-9de4-4e43-8165-0e164bb71a51")
 	)
 	(wire
 		(pts
@@ -3950,13 +4293,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 58.42) (xy 102.87 58.42)
+			(xy 162.56 95.25) (xy 167.64 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e34753a-c26d-4f45-9f14-a93f8b80eb85")
+		(uuid "1bd415aa-0fd6-44d5-ab7a-ba936f06bf61")
 	)
 	(wire
 		(pts
@@ -3978,6 +4321,16 @@
 			(type default)
 		)
 		(uuid "2230494e-f745-4d1f-9a5b-57c72338dd5a")
+	)
+	(wire
+		(pts
+			(xy 143.51 100.33) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23343340-9926-45bd-8dcf-e674d65ecd68")
 	)
 	(wire
 		(pts
@@ -4039,6 +4392,16 @@
 			(type default)
 		)
 		(uuid "30e006e0-9f9f-48b7-bb0a-62feaf453e1b")
+	)
+	(wire
+		(pts
+			(xy 162.56 97.79) (xy 168.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357357a2-3c82-4e3c-b9a2-5dd4789f26fc")
 	)
 	(wire
 		(pts
@@ -4145,6 +4508,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 58.42) (xy 102.87 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8b898d-15dc-4457-a1af-aa3e221ca00d")
+	)
+	(wire
+		(pts
 			(xy 267.97 165.1) (xy 267.97 170.18)
 		)
 		(stroke
@@ -4152,6 +4525,16 @@
 			(type default)
 		)
 		(uuid "60075577-77a0-4509-8fa4-4c75b32f46be")
+	)
+	(wire
+		(pts
+			(xy 162.56 102.87) (xy 168.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6209f8b3-fddc-43a1-9688-387075bdf34b")
 	)
 	(wire
 		(pts
@@ -4187,6 +4570,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 105.41) (xy 168.91 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f5ebca-97d8-4a6c-9fb7-6a89975e0645")
+	)
+	(wire
+		(pts
 			(xy 322.58 170.18) (xy 322.58 172.72)
 		)
 		(stroke
@@ -4207,7 +4600,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 167.64) (xy 261.62 167.64)
+			(xy 245.11 167.64) (xy 248.92 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4275,6 +4668,26 @@
 			(type default)
 		)
 		(uuid "8d89e675-9e66-4210-bdb0-261648f0095a")
+	)
+	(wire
+		(pts
+			(xy 167.64 95.25) (xy 168.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "914690ce-7008-441a-af2d-4a72ca58b7ec")
+	)
+	(wire
+		(pts
+			(xy 97.79 60.96) (xy 102.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94dbdf19-6c06-4473-83de-e5d8828145bc")
 	)
 	(wire
 		(pts
@@ -4349,7 +4762,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 160.02) (xy 254 160.02)
+			(xy 245.11 160.02) (xy 248.92 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4400,7 +4813,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 85.09) (xy 241.3 85.09)
+			(xy 248.92 120.65) (xy 257.81 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4471,7 +4884,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 74.93) (xy 241.3 74.93)
+			(xy 87.63 63.5) (xy 87.63 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e491e38e-0ee3-439d-8284-e741280a7a52")
+	)
+	(wire
+		(pts
+			(xy 248.92 110.49) (xy 257.81 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4532,6 +4955,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 167.64) (xy 261.62 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeadb266-6aba-4251-ad17-b0351d169dba")
+	)
+	(wire
+		(pts
 			(xy 76.2 121.92) (xy 63.5 121.92)
 		)
 		(stroke
@@ -4581,7 +5014,7 @@
 		(uuid "00d9c6f9-2661-4ab6-852a-898efd29e2e6")
 	)
 	(label "ICSP_VPP"
-		(at 196.85 115.57 180)
+		(at 162.56 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4611,12 +5044,12 @@
 		(uuid "07d5ddd5-cf9e-4afb-8ec4-36461f729dff")
 	)
 	(label "ICSP_DAT"
-		(at 222.25 115.57 0)
+		(at 162.56 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "08c071eb-fc07-401c-ae7e-3709e5da8b63")
 	)
@@ -4751,7 +5184,7 @@
 		(uuid "739ee91c-ae82-4ab8-8f35-5fc4535b1501")
 	)
 	(label "accel_data"
-		(at 251.46 167.64 180)
+		(at 245.11 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4811,7 +5244,7 @@
 		(uuid "8e9603ff-055c-4edd-b204-6002533b3071")
 	)
 	(label "accel_clock"
-		(at 251.46 160.02 180)
+		(at 245.11 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4821,12 +5254,12 @@
 		(uuid "8f274e00-1306-4063-a67e-80b38397a818")
 	)
 	(label "3V"
-		(at 222.25 120.65 0)
+		(at 162.56 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "91665ae8-ba33-4aad-a9e1-0d677253b3b7")
 	)
@@ -4921,12 +5354,12 @@
 		(uuid "b1b058d6-3298-4aac-a853-83572acf0a07")
 	)
 	(label "ICSP_CLK"
-		(at 222.25 118.11 0)
+		(at 162.56 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b4ed9595-56ff-4806-a80b-f5b87c1c9e91")
 	)
@@ -4961,7 +5394,7 @@
 		(uuid "cc38c379-5a14-4a75-b468-1cbdcc51a2df")
 	)
 	(label "Button"
-		(at 232.41 74.93 180)
+		(at 248.92 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5009,6 +5442,16 @@
 			(justify right bottom)
 		)
 		(uuid "d5a84a9a-5dba-4655-8654-017081f50058")
+	)
+	(label "3V"
+		(at 167.64 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d64f86c2-3e89-4c0b-b044-12b73442d849")
 	)
 	(label "CP_2"
 		(at 63.5 162.56 0)
@@ -5069,6 +5512,85 @@
 			(justify left bottom)
 		)
 		(uuid "fde58b8c-9ca2-409c-9a3c-7f1979989a03")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 248.92 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ad8d976-3f5b-48f1-8b53-d1405752f79c")
+		(property "Reference" "TP1"
+			(at 251.46 155.4479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_I2C_CLK"
+			(at 251.46 157.9879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 254 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 248.92 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20890d59-4e14-4610-927d-7d2fed94d184")
+		)
+		(instances
+			(project "regle_pcb"
+				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5153,7 +5675,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 85.09 0)
+		(at 248.92 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5164,7 +5686,7 @@
 		(fields_autoplaced yes)
 		(uuid "105028df-f6b6-4dcc-98b8-dde49b3ff522")
 		(property "Reference" "#PWR04"
-			(at 232.41 91.44 0)
+			(at 248.92 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5175,7 +5697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 90.17 0)
+			(at 248.92 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5185,7 +5707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 85.09 0)
+			(at 248.92 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5196,7 +5718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 85.09 0)
+			(at 248.92 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5207,7 +5729,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 85.09 0)
+			(at 248.92 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5224,6 +5746,172 @@
 			(project "regle_pcb"
 				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TSM-105-01-F-SH:TSM-105-01-F-SH")
+		(at 181.61 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1291ae4f-f110-49fe-a20e-c47768a7deca")
+		(property "Reference" "J1"
+			(at 190.5 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSM-105-01-F-SH"
+			(at 190.5 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TSM-105:SAMTEC_TSM-105-01-F-SH"
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/TSM-105-01-F-SH_Samtec.pdf"
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "TSM - Samtec 2.54mm Single Row Horizontal Surface Mount Pin Header, 5.84mm Post Height -01 Lead Style"
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/TSM-105-01-F-SH_Samtec.pdf"
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "TSM-105-01-F-SH"
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/TSM-105-01-F-SH/Samtec+Inc./view-part/"
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "01"
+			(uuid "674352d3-e60f-4086-ad82-40168ef2b7ee")
+		)
+		(pin "03"
+			(uuid "ec03dc18-9ff2-4f84-ba01-b5413cdf1758")
+		)
+		(pin "02"
+			(uuid "f1bac36c-aa30-4cd2-9adc-5844b69cfe74")
+		)
+		(pin "04"
+			(uuid "2a09703e-ef12-4562-a1d0-58e5f5516122")
+		)
+		(pin "05"
+			(uuid "3837c4fd-a4ed-4c00-a675-4f782a4d2b57")
+		)
+		(instances
+			(project "regle_pcb"
+				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6443,7 +7131,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 58.42 0)
+		(at 87.63 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6454,7 +7142,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d31eb2e-ebb8-44e5-a2be-bd3e8ffd1e76")
 		(property "Reference" "#PWR05"
-			(at 88.9 64.77 0)
+			(at 87.63 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +7153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 63.5 0)
+			(at 87.63 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6475,7 +7163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 58.42 0)
+			(at 87.63 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6486,7 +7174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 58.42 0)
+			(at 87.63 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6497,7 +7185,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 58.42 0)
+			(at 87.63 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6602,7 +7290,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 120.65 0)
+		(at 143.51 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6613,7 +7301,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a337d54-ee80-4b44-9b51-8f8eb4ef44e8")
 		(property "Reference" "#PWR07"
-			(at 196.85 127 0)
+			(at 143.51 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6624,7 +7312,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 125.73 0)
+			(at 143.51 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6634,7 +7322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 120.65 0)
+			(at 143.51 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6645,7 +7333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 120.65 0)
+			(at 143.51 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6656,7 +7344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 120.65 0)
+			(at 143.51 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,6 +7361,85 @@
 			(project "regle_pcb"
 				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 248.92 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fed43d1-9b73-4942-be26-b05e9a41ad85")
+		(property "Reference" "TP2"
+			(at 251.46 163.0679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_I2C_DAT"
+			(at 251.46 165.6079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 254 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 248.92 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a8cb64e-9321-4947-bda7-6c5ccbaf8fd9")
+		)
+		(instances
+			(project "regle_pcb"
+				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6926,7 +7693,7 @@
 	)
 	(symbol
 		(lib_id "BUTTON_Projet:TS04-66-50-BK-260-SMT")
-		(at 254 80.01 0)
+		(at 270.51 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6937,7 +7704,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aeb82fb-1051-4352-9a80-0ee82993dab6")
 		(property "Reference" "S1"
-			(at 254 67.31 0)
+			(at 270.51 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6947,7 +7714,7 @@
 			)
 		)
 		(property "Value" "TS04-66-50-BK-260-SMT"
-			(at 254 69.85 0)
+			(at 270.51 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6957,7 +7724,7 @@
 			)
 		)
 		(property "Footprint" "Bouton C31:SW_TS04-66-50-BK-260-SMT"
-			(at 254 80.01 0)
+			(at 270.51 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6969,7 +7736,7 @@
 			)
 		)
 		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/TS04-66-50-BK-260-SMT_Same_Sky.pdf"
-			(at 254 80.01 0)
+			(at 270.51 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6981,7 +7748,7 @@
 			)
 		)
 		(property "Description" "6 x 6 mm, 5 mm Actuator Height, 260 gf, Black, Surface Mount, SPST, Tactile Switch"
-			(at 254 80.01 0)
+			(at 270.51 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6993,7 +7760,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/TS04-66-50-BK-260-SMT_Same_Sky.pdf"
-			(at 254 80.01 0)
+			(at 270.51 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7005,7 +7772,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Same Sky"
-			(at 254 80.01 0)
+			(at 270.51 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7017,7 +7784,7 @@
 			)
 		)
 		(property "MPN" "TS04-66-50-BK-260-SMT"
-			(at 254 80.01 0)
+			(at 270.51 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7029,7 +7796,7 @@
 			)
 		)
 		(property "PARTREV" "1.0"
-			(at 254 80.01 0)
+			(at 270.51 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7041,7 +7808,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/TS04-66-50-BK-260-SMT/Same+Sky/view-part/"
-			(at 254 80.01 0)
+			(at 270.51 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7053,7 +7820,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 254 80.01 0)
+			(at 270.51 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7503,6 +8270,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 167.64 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2aa93c9-755e-4da7-ada9-c06723aa0478")
+		(property "Reference" "R6"
+			(at 171.45 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 169.672 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 165.862 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77ea7bdc-6796-498b-8c99-3fbdabc7b8d5")
+		)
+		(pin "2"
+			(uuid "923af047-72b0-4fb6-859f-851ade1de70c")
+		)
+		(instances
+			(project "regle_pcb"
+				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PIC16F19156:PIC16LF19156T-I_SO")
 		(at 102.87 40.64 0)
 		(unit 1)
@@ -7747,19 +8595,19 @@
 		)
 	)
 	(symbol
-		(lib_id "TSM-103-01-L-DV-P-TR:TSM-103-01-L-DV-P-TR")
-		(at 209.55 118.11 0)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 92.71 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e28001db-b93b-4ada-86a6-863783e33682")
-		(property "Reference" "J1"
-			(at 209.55 107.95 0)
+		(uuid "da610b49-f00b-42c6-b03c-d4d4b92aa795")
+		(property "Reference" "JP1"
+			(at 92.71 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7768,8 +8616,8 @@
 				)
 			)
 		)
-		(property "Value" "TSM-103-01-L-DV-P-TR"
-			(at 209.55 110.49 0)
+		(property "Value" "SolderJumper_2_Open"
+			(at 92.71 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7778,8 +8626,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TSM-103-01-L-DV-P-TR:SAMTEC_TSM-103-01-L-DV-P-TR"
-			(at 209.55 118.11 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 92.71 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7787,11 +8635,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/TSM-103-01-L-DV-P-TR_Samtec.pdf"
-			(at 209.55 118.11 0)
+		(property "Datasheet" ""
+			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7799,11 +8646,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Description" "TSM - Samtec 2.54mm Dual Row Vertical Surface Mount Header  5.84mm Post Height (01) - Fast Stock"
-			(at 209.55 118.11 0)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 92.71 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7811,79 +8657,18 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/TSM-103-01-L-DV-P-TR_Samtec.pdf"
-			(at 209.55 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
+		(pin "2"
+			(uuid "973b1b1e-869a-4671-8445-a3c833ed84bc")
 		)
-		(property "MANUFACTURER" "Samtec"
-			(at 209.55 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "TSM-103-01-L-DV-P-TR"
-			(at 209.55 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SOURCE_URL" "https://www.snapeda.com/parts/TSM-103-01-L-DV-P-TR/Samtec+Inc./view-part/"
-			(at 209.55 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "01"
-			(uuid "f96b06e9-bcbd-444b-8e4b-89a0cfde5346")
-		)
-		(pin "02"
-			(uuid "c3b8e5aa-334a-4b1e-bf1c-8e9b1c4c8622")
-		)
-		(pin "03"
-			(uuid "49168344-ef9e-4344-9f9a-0cdc691c80c3")
-		)
-		(pin "04"
-			(uuid "8dff439c-a562-48d7-857d-a8964b5c9cd3")
-		)
-		(pin "05"
-			(uuid "21861f9d-8bf4-4b11-aea3-5ac48c960209")
-		)
-		(pin "06"
-			(uuid "1a8bf7b8-11ad-4883-ac42-94c5089ab789")
+		(pin "1"
+			(uuid "dfbc3872-2ac8-4cca-9eef-978d3c831554")
 		)
 		(instances
 			(project "regle_pcb"
 				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
-					(reference "J1")
+					(reference "JP1")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TSM-105") (type "KiCad") (uri "/home/lfl/Desktop/git/A_26_Regle_2-0/elec/piece/TSM_105_01_F_SH") (options "") (descr ""))
+)

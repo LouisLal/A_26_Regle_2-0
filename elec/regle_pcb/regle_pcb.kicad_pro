@@ -679,7 +679,7 @@
         "uuid": "4ea62c4f-5efc-4560-ab7a-35670542d376"
       }
     ],
-    "used_designators": "#PWR1-3,#PWR5-7,BT1-2,C1-6,F1,IC1,J1,OLED1,R1-2,TP1,U1-2",
+    "used_designators": "#PWR1-3,#PWR5-7,BT1-2,C1-6,F1,IC1,J1,JP1,OLED1,R1-2,R6,TP1-2,U1-2",
     "variants": []
   },
   "sheets": [
