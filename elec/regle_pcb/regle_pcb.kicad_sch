@@ -5658,6 +5658,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 327.66 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc1509e3-07ff-4d12-8cf1-168645495141")
 		)
@@ -6098,6 +6109,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 80.01 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d997650f-efae-44d1-8431-d628346b31a4")
 		)
@@ -6169,6 +6191,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 261.62 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 261.62 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7114,6 +7147,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 80.01 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "720d3b88-5e41-4e09-9afe-6498779ff300")
 		)
@@ -7263,6 +7307,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 173.99 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7511,6 +7566,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 254 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bacb1b94-1c68-4c58-b533-fd779ec6deb8")
 		)
@@ -7592,6 +7658,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 332.74 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f09d3860-b687-4951-baef-3c4379484ed2")
 		)
@@ -7641,7 +7718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0805HCL_BIV"
+		(property "Footprint" "DEL MARCO:SM0805HCL_BIV"
 			(at 99.06 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7864,7 +7941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b417d1b-e5e2-41a1-b24a-0644821f8ed1")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 105.41 181.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7886,7 +7963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0805HCL_BIV"
+		(property "Footprint" "DEL MARCO:SM0805HCL_BIV"
 			(at 99.06 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7930,7 +8007,7 @@
 		(instances
 			(project "regle_pcb"
 				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8002,6 +8079,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 182.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f63d392a-35ff-4121-943a-6eb13cb52325")
 		)
@@ -8029,7 +8117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8149553-5e58-4f07-bcb4-a15e32ebe4e8")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 175.26 163.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8051,7 +8139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0805HCL_BIV"
+		(property "Footprint" "DEL MARCO:SM0805HCL_BIV"
 			(at 168.91 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -8095,7 +8183,7 @@
 		(instances
 			(project "regle_pcb"
 				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8135,7 +8223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SM0805HCL_BIV"
+		(property "Footprint" "DEL MARCO:SM0805HCL_BIV"
 			(at 128.27 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8197,7 +8285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afab5909-7278-44bb-bec6-e1305f656541")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 134.62 181.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8219,7 +8307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SM0805HCL_BIV"
+		(property "Footprint" "DEL MARCO:SM0805HCL_BIV"
 			(at 128.27 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8263,7 +8351,7 @@
 		(instances
 			(project "regle_pcb"
 				(path "/4ea62c4f-5efc-4560-ab7a-35670542d376"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8325,6 +8413,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 167.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 167.64 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8808,6 +8907,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 80.01 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 80.01 162.56 0)
 			(hide yes)
 			(show_name no)
