@@ -4,6 +4,12 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <logicalFolder name="app" displayName="app" projectFiles="true">
+        <itemPath>app/lis2hh12.h</itemPath>
+        <itemPath>app/afficheur.h</itemPath>
+        <itemPath>app/del.h</itemPath>
+        <itemPath>app/veille.h</itemPath>
+      </logicalFolder>
       <logicalFolder name="MCC Generated Files"
                      displayName="MCC Generated Files"
                      projectFiles="true">
@@ -38,6 +44,12 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <logicalFolder name="app" displayName="app" projectFiles="true">
+        <itemPath>app/lis2hh12.c</itemPath>
+        <itemPath>app/afficheur.c</itemPath>
+        <itemPath>app/del.c</itemPath>
+        <itemPath>app/veille.c</itemPath>
+      </logicalFolder>
       <logicalFolder name="MCC Generated Files"
                      displayName="MCC Generated Files"
                      projectFiles="true">
@@ -72,7 +84,7 @@
         <targetDevice>PIC16LF19156</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>Simulator</platformTool>
         <languageToolchain>XC8</languageToolchain>
         <languageToolchainVersion>3.10</languageToolchainVersion>
         <platform>2</platform>

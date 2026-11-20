@@ -1,0 +1,205 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"21 app/angle.c
+[; ;app/angle.c: 21: static const uint16_t lut_atan[16 + 1] = {
+[v _lut_atan `Cus ~T0 @X0 -> 17 `i s ]
+[i _lut_atan
+:U ..
+-> -> 0 `i `us
+-> -> 358 `i `us
+-> -> 713 `i `us
+-> -> 1062 `i `us
+-> -> 1404 `i `us
+-> -> 1735 `i `us
+-> -> 2056 `i `us
+-> -> 2363 `i `us
+-> -> 2657 `i `us
+-> -> 2936 `i `us
+-> -> 3201 `i `us
+-> -> 3451 `i `us
+-> -> 3687 `i `us
+-> -> 3909 `i `us
+-> -> 4119 `i `us
+-> -> 4315 `i `us
+-> -> 4500 `i `us
+..
+]
+"27
+[; ;app/angle.c: 27: static uint16_t atan_octant(uint32_t n, uint32_t d)
+[v _atan_octant `(us ~T0 @X0 1 sf2`ul`ul ]
+"28
+[; ;app/angle.c: 28: {
+{
+[e :U _atan_octant ]
+"27
+[; ;app/angle.c: 27: static uint16_t atan_octant(uint32_t n, uint32_t d)
+[v _n `ul ~T0 @X0 1 r1 ]
+[v _d `ul ~T0 @X0 1 r2 ]
+"28
+[; ;app/angle.c: 28: {
+[f ]
+"29
+[; ;app/angle.c: 29:     uint16_t q = (uint16_t)((n << 12) / d);
+[v _q `us ~T0 @X0 1 a ]
+[e = _q -> / << _n -> 12 `i _d `us ]
+"30
+[; ;app/angle.c: 30:     uint8_t i;
+[v _i `uc ~T0 @X0 1 a ]
+"31
+[; ;app/angle.c: 31:     uint16_t f;
+[v _f `us ~T0 @X0 1 a ]
+"32
+[; ;app/angle.c: 32:     uint16_t a0;
+[v _a0 `us ~T0 @X0 1 a ]
+"34
+[; ;app/angle.c: 34:     if (q >= (1u << 12)) {
+[e $ ! >= -> _q `ui << -> 1 `ui -> 12 `i 2  ]
+{
+"35
+[; ;app/angle.c: 35:         return lut_atan[16];
+[e ) *U + &U _lut_atan * -> -> -> 16 `i `ui `ux -> -> # *U &U _lut_atan `ui `ux ]
+[e $UE 1  ]
+"36
+[; ;app/angle.c: 36:     }
+}
+[e :U 2 ]
+"37
+[; ;app/angle.c: 37:     i = (uint8_t)(q >> (12 - 4));
+[e = _i -> >> -> _q `ui - -> 12 `i -> 4 `i `uc ]
+"38
+[; ;app/angle.c: 38:     f = q & ((1u << (12 - 4)) - 1u);
+[e = _f -> & -> _q `ui - << -> 1 `ui - -> 12 `i -> 4 `i -> 1 `ui `us ]
+"39
+[; ;app/angle.c: 39:     a0 = lut_atan[i];
+[e = _a0 *U + &U _lut_atan * -> _i `ux -> -> # *U &U _lut_atan `ui `ux ]
+"41
+[; ;app/angle.c: 41:     return (uint16_t)(a0 + (uint16_t)(((uint32_t)(lut_atan[i + 1u] - a0) * f
+[e ) -> + -> _a0 `ui -> -> >> + * -> - -> *U + &U _lut_atan * -> + -> _i `ui -> 1 `ui `ux -> -> # *U &U _lut_atan `ui `ux `ui -> _a0 `ui `ul -> _f `ul -> << -> 1 `ui - - -> 12 `i -> 4 `i -> 1 `i `ul - -> 12 `i -> 4 `i `us `ui `us ]
+[e $UE 1  ]
+"43
+[; ;app/angle.c: 43: }
+[e :UE 1 ]
+}
+"45
+[; ;app/angle.c: 45: int16_t ANGLE_Atan2(int32_t y, int32_t x)
+[v _ANGLE_Atan2 `(s ~T0 @X0 1 ef2`l`l ]
+"46
+[; ;app/angle.c: 46: {
+{
+[e :U _ANGLE_Atan2 ]
+"45
+[; ;app/angle.c: 45: int16_t ANGLE_Atan2(int32_t y, int32_t x)
+[v _y `l ~T0 @X0 1 r1 ]
+[v _x `l ~T0 @X0 1 r2 ]
+"46
+[; ;app/angle.c: 46: {
+[f ]
+"47
+[; ;app/angle.c: 47:     uint32_t ax = (uint32_t)(x < 0 ? -x : x);
+[v _ax `ul ~T0 @X0 1 a ]
+[e = _ax -> ? < _x -> -> 0 `i `l : -U _x _x `ul ]
+"48
+[; ;app/angle.c: 48:     uint32_t ay = (uint32_t)(y < 0 ? -y : y);
+[v _ay `ul ~T0 @X0 1 a ]
+[e = _ay -> ? < _y -> -> 0 `i `l : -U _y _y `ul ]
+"49
+[; ;app/angle.c: 49:     int16_t a;
+[v _a `s ~T0 @X0 1 a ]
+"51
+[; ;app/angle.c: 51:     if (ax == 0u && ay == 0u) {
+[e $ ! && == _ax -> -> 0 `ui `ul == _ay -> -> 0 `ui `ul 4  ]
+{
+"52
+[; ;app/angle.c: 52:         return 0;
+[e ) -> -> 0 `i `s ]
+[e $UE 3  ]
+"53
+[; ;app/angle.c: 53:     }
+}
+[e :U 4 ]
+"54
+[; ;app/angle.c: 54:     if (ay <= ax) {
+[e $ ! <= _ay _ax 5  ]
+{
+"55
+[; ;app/angle.c: 55:         a = (int16_t)atan_octant(ay, ax);
+[e = _a -> ( _atan_octant (2 , _ay _ax `s ]
+"56
+[; ;app/angle.c: 56:     } else {
+}
+[e $U 6  ]
+[e :U 5 ]
+{
+"57
+[; ;app/angle.c: 57:         a = (int16_t)(9000 - (int16_t)atan_octant(ax, ay));
+[e = _a -> - -> 9000 `i -> -> ( _atan_octant (2 , _ax _ay `s `i `s ]
+"58
+[; ;app/angle.c: 58:     }
+}
+[e :U 6 ]
+"59
+[; ;app/angle.c: 59:     if (x < 0) {
+[e $ ! < _x -> -> 0 `i `l 7  ]
+{
+"60
+[; ;app/angle.c: 60:         a = (int16_t)(18000 - a);
+[e = _a -> - -> 18000 `i -> _a `i `s ]
+"61
+[; ;app/angle.c: 61:     }
+}
+[e :U 7 ]
+"62
+[; ;app/angle.c: 62:     if (y < 0) {
+[e $ ! < _y -> -> 0 `i `l 8  ]
+{
+"63
+[; ;app/angle.c: 63:         a = (int16_t)-a;
+[e = _a -> -U -> _a `i `s ]
+"64
+[; ;app/angle.c: 64:     }
+}
+[e :U 8 ]
+"65
+[; ;app/angle.c: 65:     return a;
+[e ) _a ]
+[e $UE 3  ]
+"66
+[; ;app/angle.c: 66: }
+[e :UE 3 ]
+}
+"68
+[; ;app/angle.c: 68: int16_t ANGLE_Ramene180(int32_t a)
+[v _ANGLE_Ramene180 `(s ~T0 @X0 1 ef1`l ]
+"69
+[; ;app/angle.c: 69: {
+{
+[e :U _ANGLE_Ramene180 ]
+"68
+[; ;app/angle.c: 68: int16_t ANGLE_Ramene180(int32_t a)
+[v _a `l ~T0 @X0 1 r1 ]
+"69
+[; ;app/angle.c: 69: {
+[f ]
+"70
+[; ;app/angle.c: 70:     while (a > 18000) a -= 36000;
+[e $U 10  ]
+[e :U 11 ]
+[e =- _a -> 36000 `l ]
+[e :U 10 ]
+[e $ > _a -> -> 18000 `i `l 11  ]
+[e :U 12 ]
+"71
+[; ;app/angle.c: 71:     while (a <= -18000) a += 36000;
+[e $U 13  ]
+[e :U 14 ]
+[e =+ _a -> 36000 `l ]
+[e :U 13 ]
+[e $ <= _a -> -U -> 18000 `i `l 14  ]
+[e :U 15 ]
+"72
+[; ;app/angle.c: 72:     return (int16_t)a;
+[e ) -> _a `s ]
+[e $UE 9  ]
+"73
+[; ;app/angle.c: 73: }
+[e :UE 9 ]
+}

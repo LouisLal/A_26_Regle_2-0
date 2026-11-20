@@ -9,4 +9,9 @@ mcc_generated_files/system/../system/interrupt.h  \
 mcc_generated_files/system/../i2c_host/mssp1.h  \
 mcc_generated_files/system/../i2c_host/i2c_host_event_types.h  \
 mcc_generated_files/system/../i2c_host/i2c_host_types.h  \
-mcc_generated_files/system/../i2c_host/i2c_host_interface.h 
+mcc_generated_files/system/../i2c_host/i2c_host_interface.h  \
+app/lis2hh12.h  \
+app/afficheur.h  \
+app/del.h  \
+app/angle.h  \
+app/veille.h 

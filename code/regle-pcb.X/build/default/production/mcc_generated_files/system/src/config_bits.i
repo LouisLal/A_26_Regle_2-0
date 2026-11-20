@@ -12,7 +12,7 @@
 #pragma config RSTOSC = HFINT32
 #pragma config CLKOUTEN = OFF
 #pragma config VBATEN = OFF
-#pragma config LCDPEN = ON
+#pragma config LCDPEN = OFF
 #pragma config CSWEN = ON
 #pragma config FCMEN = ON
 

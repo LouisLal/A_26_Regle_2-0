@@ -7,7 +7,7 @@
 # 1 "/opt/microchip/xc8/v3.10/pic/include/language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "main.c" 2
-# 35 "main.c"
+# 21 "main.c"
 # 1 "./mcc_generated_files/system/system.h" 1
 # 39 "./mcc_generated_files/system/system.h"
 # 1 "/opt/microchip/xc8/v3.10/pic/include/xc.h" 1 3
@@ -17428,17 +17428,214 @@ void I2C1_ERROR_ISR(void);
 
 
 void SYSTEM_Initialize(void);
-# 36 "main.c" 2
+# 22 "main.c" 2
+# 1 "./app/lis2hh12.h" 1
+# 27 "./app/lis2hh12.h"
+typedef struct {
+    int16_t x;
+    int16_t y;
+    int16_t z;
+} lis2hh12_data_t;
+
+
+
+_Bool LIS2HH12_Init(void);
+
+
+
+_Bool LIS2HH12_PowerDown(void);
+
+
+
+_Bool LIS2HH12_Read(lis2hh12_data_t *out);
+# 23 "main.c" 2
+# 1 "./app/afficheur.h" 1
+# 16 "./app/afficheur.h"
+void AFF_Texte(const char txt[4], uint8_t dp_mask);
+
+
+
+void AFF_Angle(int16_t cdeg);
+
+
+void AFF_Efface(void);
+# 24 "main.c" 2
+# 1 "./app/del.h" 1
+# 24 "./app/del.h"
+void DEL_Init(void);
+
+
+void DEL_Allume(uint8_t n);
+# 25 "main.c" 2
+# 1 "./app/angle.h" 1
+# 18 "./app/angle.h"
+int16_t ANGLE_Atan2(int32_t y, int32_t x);
+
+
+int16_t ANGLE_Ramene180(int32_t a);
+# 26 "main.c" 2
+# 1 "./app/veille.h" 1
+# 15 "./app/veille.h"
+void VEILLE_Init(void);
+
+
+_Bool VEILLE_Activee(void);
 
 
 
 
+_Bool VEILLE_Dormir(void);
+# 27 "main.c" 2
+# 52 "main.c"
+static uint8_t del_niveau(int16_t angle)
+{
+
+    int16_t ecart = angle % 9000;
+    if (ecart > 9000 / 2) ecart -= 9000;
+    if (ecart <= -9000 / 2) ecart += 9000;
+
+    if (ecart > 300) return 5;
+    if (ecart > 50) return 4;
+    if (ecart >= -50) return 3;
+    if (ecart >= -300) return 2;
+    return 1;
+}
 
 int main(void)
 {
+    lis2hh12_data_t acc;
+    int32_t fx = 0, fy = 0, fz = 0;
+    _Bool filtre_pret = 0;
+    _Bool capteur_ok = 0;
+    int16_t zero = 0;
+    uint8_t tick_aff = 0;
+    uint8_t tick_bouton = 0;
+    uint8_t tick_reessai = 0;
+    uint8_t tick_message = 0;
+    uint16_t tick_inactif = 0;
+    _Bool ignore_bouton = 0;
+
     SYSTEM_Initialize();
-# 61 "main.c"
-    while(1)
+
+
+    WPUAbits.WPUA5 = 1;
+
+    DEL_Init();
+    VEILLE_Init();
+
+
+    (INTCONbits.GIE = 1);
+    (INTCONbits.PEIE = 1);
+
+    AFF_Texte("8888", 0x0F);
+    for (uint8_t i = 1; i <= 5u; i++) {
+        DEL_Allume(i);
+        _delay((unsigned long)((150)*(1000000U/4000.0)));
+    }
+    DEL_Allume(0);
+
+    _delay((unsigned long)((20)*(1000000U/4000.0)));
+    capteur_ok = LIS2HH12_Init();
+
+    while (1)
     {
+        _delay((unsigned long)((50u)*(1000000U/4000.0)));
+
+
+        if ((PORTAbits.RA5 == 0) || !VEILLE_Activee()) {
+            tick_inactif = 0;
+        } else if (++tick_inactif >= 1200u) {
+            capteur_ok = VEILLE_Dormir();
+            tick_inactif = 0;
+            filtre_pret = 0;
+            ignore_bouton = 1;
+            tick_bouton = 0;
+            tick_message = 0;
+            tick_reessai = 0;
+            tick_aff = 4u;
+            continue;
+        }
+
+
+        if (!capteur_ok) {
+            AFF_Texte("Err ", 0);
+            DEL_Allume(0);
+            if (++tick_reessai >= 20u) {
+                tick_reessai = 0;
+                capteur_ok = LIS2HH12_Init();
+                filtre_pret = 0;
+            }
+            continue;
+        }
+
+        if (!LIS2HH12_Read(&acc)) {
+            capteur_ok = 0;
+            continue;
+        }
+
+
+        if (!filtre_pret) {
+            fx = (int32_t)acc.x * 8;
+            fy = (int32_t)acc.y * 8;
+            fz = (int32_t)acc.z * 8;
+            filtre_pret = 1;
+        } else {
+            fx += ((int32_t)acc.x * 8 - fx) / 4;
+            fy += ((int32_t)acc.y * 8 - fy) / 4;
+            fz += ((int32_t)acc.z * 8 - fz) / 4;
+        }
+
+
+
+
+        int16_t px = (int16_t)(fx >> 7), py = (int16_t)(fy >> 7), pz = (int16_t)(fz >> 7);
+        uint32_t plan2 = (uint32_t)((int32_t)px * px + (int32_t)py * py);
+        _Bool a_plat = 3u * plan2 < (uint32_t)((int32_t)pz * pz);
+
+
+        int16_t absolu = ANGLE_Ramene180((int32_t)1 * ANGLE_Atan2(fx, fy)
+                                         + 0);
+        int16_t angle = ANGLE_Ramene180((int32_t)absolu - zero);
+
+
+        if (ignore_bouton) {
+            if (!(PORTAbits.RA5 == 0)) {
+                ignore_bouton = 0;
+            }
+        } else if ((PORTAbits.RA5 == 0)) {
+            if (tick_bouton < 255u) tick_bouton++;
+            if (tick_bouton == 30u) {
+                zero = 0;
+                AFF_Texte("AbS ", 0);
+                tick_message = 20u;
+            }
+        } else {
+            if (tick_bouton >= 1u && tick_bouton < 30u && !a_plat) {
+                zero = absolu;
+                angle = 0;
+                tick_aff = 4u;
+            }
+            tick_bouton = 0;
+        }
+
+
+        if (a_plat) {
+            DEL_Allume(0);
+        } else {
+            DEL_Allume(del_niveau(angle));
+        }
+
+        if (tick_message > 0u) {
+            tick_message--;
+            continue;
+        }
+        if (++tick_aff >= 4u) {
+            tick_aff = 0;
+            if (a_plat) {
+                AFF_Texte("FLAt", 0);
+            } else {
+                AFF_Angle(angle);
+            }
+        }
     }
 }

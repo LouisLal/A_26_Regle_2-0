@@ -8,7 +8,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "42
 [p x VBATEN  =  OFF     ]
 "43
-[p x LCDPEN  =  ON     ]
+[p x LCDPEN  =  OFF     ]
 "44
 [p x CSWEN  =  ON     ]
 "45

@@ -1,8 +1,82 @@
 Version 4.0 HI-TECH Software Intermediate Code
 [p mainexit ]
+"27 ./app/lis2hh12.h
+[; ;./app/lis2hh12.h: 27: typedef struct {
+[s S1282 `s 1 `s 1 `s 1 ]
+[n S1282 . x y z ]
 "56 ./mcc_generated_files/system/system.h
 [; ;./mcc_generated_files/system/system.h: 56: void SYSTEM_Initialize(void);
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+"26469 /opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h
+[; ;/opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h: 26469:     struct {
+[s S1202 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1202 . WPUA0 WPUA1 WPUA2 WPUA3 WPUA4 WPUA5 WPUA6 WPUA7 ]
+"26468
+[; ;/opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h: 26468: typedef union {
+[u S1201 `S1202 1 ]
+[n S1201 . . ]
+"26480
+[; ;/opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h: 26480: extern volatile WPUAbits_t WPUAbits __attribute__((address(0x1F39)));
+[v _WPUAbits `VS1201 ~T0 @X0 0 e@7993 ]
+"24 ./app/del.h
+[; ;./app/del.h: 24: void DEL_Init(void);
+[v _DEL_Init `(v ~T0 @X0 0 ef ]
+"15 ./app/veille.h
+[; ;./app/veille.h: 15: void VEILLE_Init(void);
+[v _VEILLE_Init `(v ~T0 @X0 0 ef ]
+"347 /opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h
+[; ;/opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h: 347:     struct {
+[s S31 :1 `uc 1 :5 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . INTEDG . PEIE GIE ]
+"346
+[; ;/opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h: 346: typedef union {
+[u S30 `S31 1 ]
+[n S30 . . ]
+"354
+[; ;/opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h: 354: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS30 ~T0 @X0 0 e@11 ]
+"16 ./app/afficheur.h
+[; ;./app/afficheur.h: 16: void AFF_Texte(const char txt[4], uint8_t dp_mask);
+[v _AFF_Texte `(v ~T0 @X0 0 ef2`*Cuc`uc ]
+"27 ./app/del.h
+[; ;./app/del.h: 27: void DEL_Allume(uint8_t n);
+[v _DEL_Allume `(v ~T0 @X0 0 ef1`uc ]
+[v F202 `(v ~T0 @X0 1 tf1`ul ]
+"20 /opt/microchip/xc8/v3.10/pic/include/builtins.h
+[v __delay `JF202 ~T0 @X0 0 e ]
+[p i __delay ]
+"35 ./app/lis2hh12.h
+[; ;./app/lis2hh12.h: 35: _Bool LIS2HH12_Init(void);
+[v _LIS2HH12_Init `(a ~T0 @X0 0 ef ]
+"380 /opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h
+[; ;/opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h: 380:     struct {
+[s S33 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S33 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"379
+[; ;/opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h: 379: typedef union {
+[u S32 `S33 1 ]
+[n S32 . . ]
+"391
+[; ;/opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h: 391: extern volatile PORTAbits_t PORTAbits __attribute__((address(0x00C)));
+[v _PORTAbits `VS32 ~T0 @X0 0 e@12 ]
+"18 ./app/veille.h
+[; ;./app/veille.h: 18: _Bool VEILLE_Activee(void);
+[v _VEILLE_Activee `(a ~T0 @X0 0 ef ]
+"23
+[; ;./app/veille.h: 23: _Bool VEILLE_Dormir(void);
+[v _VEILLE_Dormir `(a ~T0 @X0 0 ef ]
+"43 ./app/lis2hh12.h
+[; ;./app/lis2hh12.h: 43: _Bool LIS2HH12_Read(lis2hh12_data_t *out);
+[v _LIS2HH12_Read `(a ~T0 @X0 0 ef1`*S1282 ]
+"21 ./app/angle.h
+[; ;./app/angle.h: 21: int16_t ANGLE_Ramene180(int32_t a);
+[v _ANGLE_Ramene180 `(s ~T0 @X0 0 ef1`l ]
+"18
+[; ;./app/angle.h: 18: int16_t ANGLE_Atan2(int32_t y, int32_t x);
+[v _ANGLE_Atan2 `(s ~T0 @X0 0 ef2`l`l ]
+"20 ./app/afficheur.h
+[; ;./app/afficheur.h: 20: void AFF_Angle(int16_t cdeg);
+[v _AFF_Angle `(v ~T0 @X0 0 ef1`s ]
 "38 /opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h
 [; ;/opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h: 38: __asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
@@ -1338,31 +1412,486 @@ Version 4.0 HI-TECH Software Intermediate Code
 "28164
 [; ;/opt/microchip/mplabx/v6.35/packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8/pic/include/proc/pic16lf19156.h: 28164: __asm("TOSH equ 01FEFh");
 [; <" TOSH equ 01FEFh ;# ">
+"52 main.c
+[; ;main.c: 52: static uint8_t del_niveau(int16_t angle)
+[v _del_niveau `(uc ~T0 @X0 1 sf1`s ]
+"53
+[; ;main.c: 53: {
+{
+[e :U _del_niveau ]
+"52
+[; ;main.c: 52: static uint8_t del_niveau(int16_t angle)
+[v _angle `s ~T0 @X0 1 r1 ]
+"53
+[; ;main.c: 53: {
+[f ]
+"55
+[; ;main.c: 55:     int16_t ecart = angle % 9000;
+[v _ecart `s ~T0 @X0 1 a ]
+[e = _ecart -> % -> _angle `i -> 9000 `i `s ]
+"56
+[; ;main.c: 56:     if (ecart > 9000 / 2) ecart -= 9000;
+[e $ ! > -> _ecart `i / -> 9000 `i -> 2 `i 1284  ]
+[e =- _ecart -> -> 9000 `i `s ]
+[e :U 1284 ]
+"57
+[; ;main.c: 57:     if (ecart <= -9000 / 2) ecart += 9000;
+[e $ ! <= -> _ecart `i / -U -> 9000 `i -> 2 `i 1285  ]
+[e =+ _ecart -> -> 9000 `i `s ]
+[e :U 1285 ]
+"59
+[; ;main.c: 59:     if (ecart > 300) return 5;
+[e $ ! > -> _ecart `i -> 300 `i 1286  ]
+[e ) -> -> 5 `i `uc ]
+[e $UE 1283  ]
+[e :U 1286 ]
+"60
+[; ;main.c: 60:     if (ecart > 50) return 4;
+[e $ ! > -> _ecart `i -> 50 `i 1287  ]
+[e ) -> -> 4 `i `uc ]
+[e $UE 1283  ]
+[e :U 1287 ]
+"61
+[; ;main.c: 61:     if (ecart >= -50) return 3;
+[e $ ! >= -> _ecart `i -U -> 50 `i 1288  ]
+[e ) -> -> 3 `i `uc ]
+[e $UE 1283  ]
+[e :U 1288 ]
+"62
+[; ;main.c: 62:     if (ecart >= -300) return 2;
+[e $ ! >= -> _ecart `i -U -> 300 `i 1289  ]
+[e ) -> -> 2 `i `uc ]
+[e $UE 1283  ]
+[e :U 1289 ]
+"63
+[; ;main.c: 63:     return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 1283  ]
+"64
+[; ;main.c: 64: }
+[e :UE 1283 ]
+}
 [v $root$_main `(v ~T0 @X0 0 e ]
-"41 main.c
-[; ;main.c: 41: int main(void)
+"66
+[; ;main.c: 66: int main(void)
 [v _main `(i ~T0 @X0 1 ef ]
-"42
-[; ;main.c: 42: {
+"67
+[; ;main.c: 67: {
 {
 [e :U _main ]
 [f ]
-"43
-[; ;main.c: 43:     SYSTEM_Initialize();
+"68
+[; ;main.c: 68:     lis2hh12_data_t acc;
+[v _acc `S1282 ~T0 @X0 1 a ]
+"69
+[; ;main.c: 69:     int32_t fx = 0, fy = 0, fz = 0;
+[v _fx `l ~T0 @X0 1 a ]
+[e = _fx -> -> 0 `i `l ]
+[v _fy `l ~T0 @X0 1 a ]
+[e = _fy -> -> 0 `i `l ]
+[v _fz `l ~T0 @X0 1 a ]
+[e = _fz -> -> 0 `i `l ]
+"70
+[; ;main.c: 70:     _Bool filtre_pret = 0;
+[v _filtre_pret `a ~T0 @X0 1 a ]
+[e = _filtre_pret -> -> 0 `i `a ]
+"71
+[; ;main.c: 71:     _Bool capteur_ok = 0;
+[v _capteur_ok `a ~T0 @X0 1 a ]
+[e = _capteur_ok -> -> 0 `i `a ]
+"72
+[; ;main.c: 72:     int16_t zero = 0;
+[v _zero `s ~T0 @X0 1 a ]
+[e = _zero -> -> 0 `i `s ]
+"73
+[; ;main.c: 73:     uint8_t tick_aff = 0;
+[v _tick_aff `uc ~T0 @X0 1 a ]
+[e = _tick_aff -> -> 0 `i `uc ]
+"74
+[; ;main.c: 74:     uint8_t tick_bouton = 0;
+[v _tick_bouton `uc ~T0 @X0 1 a ]
+[e = _tick_bouton -> -> 0 `i `uc ]
+"75
+[; ;main.c: 75:     uint8_t tick_reessai = 0;
+[v _tick_reessai `uc ~T0 @X0 1 a ]
+[e = _tick_reessai -> -> 0 `i `uc ]
+"76
+[; ;main.c: 76:     uint8_t tick_message = 0;
+[v _tick_message `uc ~T0 @X0 1 a ]
+[e = _tick_message -> -> 0 `i `uc ]
+"77
+[; ;main.c: 77:     uint16_t tick_inactif = 0;
+[v _tick_inactif `us ~T0 @X0 1 a ]
+[e = _tick_inactif -> -> 0 `i `us ]
+"78
+[; ;main.c: 78:     _Bool ignore_bouton = 0;
+[v _ignore_bouton `a ~T0 @X0 1 a ]
+[e = _ignore_bouton -> -> 0 `i `a ]
+"80
+[; ;main.c: 80:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
-"61
-[; ;main.c: 61:     while(1)
-[e :U 1284 ]
-"62
-[; ;main.c: 62:     {
+"83
+[; ;main.c: 83:     WPUAbits.WPUA5 = 1;
+[e = . . _WPUAbits 0 5 -> -> 1 `i `uc ]
+"85
+[; ;main.c: 85:     DEL_Init();
+[e ( _DEL_Init ..  ]
+"86
+[; ;main.c: 86:     VEILLE_Init();
+[e ( _VEILLE_Init ..  ]
+"89
+[; ;main.c: 89:     (INTCONbits.GIE = 1);
+[e = . . _INTCONbits 0 3 -> -> 1 `i `uc ]
+"90
+[; ;main.c: 90:     (INTCONbits.PEIE = 1);
+[e = . . _INTCONbits 0 2 -> -> 1 `i `uc ]
+"92
+[; ;main.c: 92:     AFF_Texte("8888", 0x0F);
+[e ( _AFF_Texte (2 , :s 1C -> -> 15 `i `uc ]
+"93
+[; ;main.c: 93:     for (uint8_t i = 1; i <= 5u; i++) {
 {
-"63
-[; ;main.c: 63:     }
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 1 `i `uc ]
+[e $ <= -> _i `ui -> 5 `ui 1291  ]
+[e $U 1292  ]
+[e :U 1291 ]
+{
+"94
+[; ;main.c: 94:         DEL_Allume(i);
+[e ( _DEL_Allume (1 _i ]
+"95
+[; ;main.c: 95:         _delay((unsigned long)((150)*(1000000U/4000.0)));
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 1000000 `ul `d .4000.0 `ul ]
+"96
+[; ;main.c: 96:     }
 }
-[e :U 1283 ]
-[e $U 1284  ]
-[e :U 1285 ]
-"64
-[; ;main.c: 64: }
-[e :UE 1282 ]
+[e ++ _i -> -> 1 `i `uc ]
+[e $ <= -> _i `ui -> 5 `ui 1291  ]
+[e :U 1292 ]
 }
+"97
+[; ;main.c: 97:     DEL_Allume(0);
+[e ( _DEL_Allume (1 -> -> 0 `i `uc ]
+"99
+[; ;main.c: 99:     _delay((unsigned long)((20)*(1000000U/4000.0)));
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 1000000 `ul `d .4000.0 `ul ]
+"100
+[; ;main.c: 100:     capteur_ok = LIS2HH12_Init();
+[e = _capteur_ok ( _LIS2HH12_Init ..  ]
+"102
+[; ;main.c: 102:     while (1)
+[e :U 1295 ]
+"103
+[; ;main.c: 103:     {
+{
+"104
+[; ;main.c: 104:         _delay((unsigned long)((50u)*(1000000U/4000.0)));
+[e ( __delay (1 -> * -> -> 50 `ui `d / -> -> 1000000 `ul `d .4000.0 `ul ]
+"107
+[; ;main.c: 107:         if ((PORTAbits.RA5 == 0) || !VEILLE_Activee()) {
+[e $ ! || == -> . . _PORTAbits 0 5 `i -> 0 `i ! != -> ( _VEILLE_Activee ..  `i -> 0 `i 1297  ]
+{
+"108
+[; ;main.c: 108:             tick_inactif = 0;
+[e = _tick_inactif -> -> 0 `i `us ]
+"109
+[; ;main.c: 109:         } else if (++tick_inactif >= 1200u) {
+}
+[e $U 1298  ]
+[e :U 1297 ]
+[e $ ! >= -> =+ _tick_inactif -> -> 1 `i `us `ui -> 1200 `ui 1299  ]
+{
+"110
+[; ;main.c: 110:             capteur_ok = VEILLE_Dormir();
+[e = _capteur_ok ( _VEILLE_Dormir ..  ]
+"111
+[; ;main.c: 111:             tick_inactif = 0;
+[e = _tick_inactif -> -> 0 `i `us ]
+"112
+[; ;main.c: 112:             filtre_pret = 0;
+[e = _filtre_pret -> -> 0 `i `a ]
+"113
+[; ;main.c: 113:             ignore_bouton = 1;
+[e = _ignore_bouton -> -> 1 `i `a ]
+"114
+[; ;main.c: 114:             tick_bouton = 0;
+[e = _tick_bouton -> -> 0 `i `uc ]
+"115
+[; ;main.c: 115:             tick_message = 0;
+[e = _tick_message -> -> 0 `i `uc ]
+"116
+[; ;main.c: 116:             tick_reessai = 0;
+[e = _tick_reessai -> -> 0 `i `uc ]
+"117
+[; ;main.c: 117:             tick_aff = 4u;
+[e = _tick_aff -> -> 4 `ui `uc ]
+"118
+[; ;main.c: 118:             continue;
+[e $U 1294  ]
+"119
+[; ;main.c: 119:         }
+}
+[e :U 1299 ]
+[e :U 1298 ]
+"122
+[; ;main.c: 122:         if (!capteur_ok) {
+[e $ ! ! != -> _capteur_ok `i -> 0 `i 1300  ]
+{
+"123
+[; ;main.c: 123:             AFF_Texte("Err ", 0);
+[e ( _AFF_Texte (2 , :s 2C -> -> 0 `i `uc ]
+"124
+[; ;main.c: 124:             DEL_Allume(0);
+[e ( _DEL_Allume (1 -> -> 0 `i `uc ]
+"125
+[; ;main.c: 125:             if (++tick_reessai >= 20u) {
+[e $ ! >= -> =+ _tick_reessai -> -> 1 `i `uc `ui -> 20 `ui 1301  ]
+{
+"126
+[; ;main.c: 126:                 tick_reessai = 0;
+[e = _tick_reessai -> -> 0 `i `uc ]
+"127
+[; ;main.c: 127:                 capteur_ok = LIS2HH12_Init();
+[e = _capteur_ok ( _LIS2HH12_Init ..  ]
+"128
+[; ;main.c: 128:                 filtre_pret = 0;
+[e = _filtre_pret -> -> 0 `i `a ]
+"129
+[; ;main.c: 129:             }
+}
+[e :U 1301 ]
+"130
+[; ;main.c: 130:             continue;
+[e $U 1294  ]
+"131
+[; ;main.c: 131:         }
+}
+[e :U 1300 ]
+"133
+[; ;main.c: 133:         if (!LIS2HH12_Read(&acc)) {
+[e $ ! ! != -> ( _LIS2HH12_Read (1 &U _acc `i -> 0 `i 1302  ]
+{
+"134
+[; ;main.c: 134:             capteur_ok = 0;
+[e = _capteur_ok -> -> 0 `i `a ]
+"135
+[; ;main.c: 135:             continue;
+[e $U 1294  ]
+"136
+[; ;main.c: 136:         }
+}
+[e :U 1302 ]
+"139
+[; ;main.c: 139:         if (!filtre_pret) {
+[e $ ! ! != -> _filtre_pret `i -> 0 `i 1303  ]
+{
+"140
+[; ;main.c: 140:             fx = (int32_t)acc.x * 8;
+[e = _fx * -> . _acc 0 `l -> -> 8 `i `l ]
+"141
+[; ;main.c: 141:             fy = (int32_t)acc.y * 8;
+[e = _fy * -> . _acc 1 `l -> -> 8 `i `l ]
+"142
+[; ;main.c: 142:             fz = (int32_t)acc.z * 8;
+[e = _fz * -> . _acc 2 `l -> -> 8 `i `l ]
+"143
+[; ;main.c: 143:             filtre_pret = 1;
+[e = _filtre_pret -> -> 1 `i `a ]
+"144
+[; ;main.c: 144:         } else {
+}
+[e $U 1304  ]
+[e :U 1303 ]
+{
+"145
+[; ;main.c: 145:             fx += ((int32_t)acc.x * 8 - fx) / 4;
+[e =+ _fx / - * -> . _acc 0 `l -> -> 8 `i `l _fx -> -> 4 `i `l ]
+"146
+[; ;main.c: 146:             fy += ((int32_t)acc.y * 8 - fy) / 4;
+[e =+ _fy / - * -> . _acc 1 `l -> -> 8 `i `l _fy -> -> 4 `i `l ]
+"147
+[; ;main.c: 147:             fz += ((int32_t)acc.z * 8 - fz) / 4;
+[e =+ _fz / - * -> . _acc 2 `l -> -> 8 `i `l _fz -> -> 4 `i `l ]
+"148
+[; ;main.c: 148:         }
+}
+[e :U 1304 ]
+"153
+[; ;main.c: 153:         int16_t px = (int16_t)(fx >> 7), py = (int16_t)(fy >> 7), pz = (int16_t)(fz >> 7);
+[v _px `s ~T0 @X0 1 a ]
+[e = _px -> >> _fx -> 7 `i `s ]
+[v _py `s ~T0 @X0 1 a ]
+[e = _py -> >> _fy -> 7 `i `s ]
+[v _pz `s ~T0 @X0 1 a ]
+[e = _pz -> >> _fz -> 7 `i `s ]
+"154
+[; ;main.c: 154:         uint32_t plan2 = (uint32_t)((int32_t)px * px + (int32_t)py * py);
+[v _plan2 `ul ~T0 @X0 1 a ]
+[e = _plan2 -> + * -> _px `l -> _px `l * -> _py `l -> _py `l `ul ]
+"155
+[; ;main.c: 155:         _Bool a_plat = 3u * plan2 < (uint32_t)((int32_t)pz * pz);
+[v _a_plat `a ~T0 @X0 1 a ]
+[e = _a_plat -> -> < * -> -> 3 `ui `ul _plan2 -> * -> _pz `l -> _pz `l `ul `i `a ]
+"158
+[; ;main.c: 158:         int16_t absolu = ANGLE_Ramene180((int32_t)1 * ANGLE_Atan2(fx, fy)
+[v _absolu `s ~T0 @X0 1 a ]
+[e = _absolu ( _ANGLE_Ramene180 (1 + * -> -> 1 `i `l -> ( _ANGLE_Atan2 (2 , _fx _fy `l -> -> 0 `i `l ]
+"160
+[; ;main.c: 160:         int16_t angle = ANGLE_Ramene180((int32_t)absolu - zero);
+[v _angle `s ~T0 @X0 1 a ]
+[e = _angle ( _ANGLE_Ramene180 (1 - -> _absolu `l -> _zero `l ]
+"163
+[; ;main.c: 163:         if (ignore_bouton) {
+[e $ ! != -> _ignore_bouton `i -> 0 `i 1305  ]
+{
+"164
+[; ;main.c: 164:             if (!(PORTAbits.RA5 == 0)) {
+[e $ ! ! == -> . . _PORTAbits 0 5 `i -> 0 `i 1306  ]
+{
+"165
+[; ;main.c: 165:                 ignore_bouton = 0;
+[e = _ignore_bouton -> -> 0 `i `a ]
+"166
+[; ;main.c: 166:             }
+}
+[e :U 1306 ]
+"167
+[; ;main.c: 167:         } else if ((PORTAbits.RA5 == 0)) {
+}
+[e $U 1307  ]
+[e :U 1305 ]
+[e $ ! == -> . . _PORTAbits 0 5 `i -> 0 `i 1308  ]
+{
+"168
+[; ;main.c: 168:             if (tick_bouton < 255u) tick_bouton++;
+[e $ ! < -> _tick_bouton `ui -> 255 `ui 1309  ]
+[e ++ _tick_bouton -> -> 1 `i `uc ]
+[e :U 1309 ]
+"169
+[; ;main.c: 169:             if (tick_bouton == 30u) {
+[e $ ! == -> _tick_bouton `ui -> 30 `ui 1310  ]
+{
+"170
+[; ;main.c: 170:                 zero = 0;
+[e = _zero -> -> 0 `i `s ]
+"171
+[; ;main.c: 171:                 AFF_Texte("AbS ", 0);
+[e ( _AFF_Texte (2 , :s 3C -> -> 0 `i `uc ]
+"172
+[; ;main.c: 172:                 tick_message = 20u;
+[e = _tick_message -> -> 20 `ui `uc ]
+"173
+[; ;main.c: 173:             }
+}
+[e :U 1310 ]
+"174
+[; ;main.c: 174:         } else {
+}
+[e $U 1311  ]
+[e :U 1308 ]
+{
+"175
+[; ;main.c: 175:             if (tick_bouton >= 1u && tick_bouton < 30u && !a_plat) {
+[e $ ! && && >= -> _tick_bouton `ui -> 1 `ui < -> _tick_bouton `ui -> 30 `ui ! != -> _a_plat `i -> 0 `i 1312  ]
+{
+"176
+[; ;main.c: 176:                 zero = absolu;
+[e = _zero _absolu ]
+"177
+[; ;main.c: 177:                 angle = 0;
+[e = _angle -> -> 0 `i `s ]
+"178
+[; ;main.c: 178:                 tick_aff = 4u;
+[e = _tick_aff -> -> 4 `ui `uc ]
+"179
+[; ;main.c: 179:             }
+}
+[e :U 1312 ]
+"180
+[; ;main.c: 180:             tick_bouton = 0;
+[e = _tick_bouton -> -> 0 `i `uc ]
+"181
+[; ;main.c: 181:         }
+}
+[e :U 1311 ]
+[e :U 1307 ]
+"184
+[; ;main.c: 184:         if (a_plat) {
+[e $ ! != -> _a_plat `i -> 0 `i 1313  ]
+{
+"185
+[; ;main.c: 185:             DEL_Allume(0);
+[e ( _DEL_Allume (1 -> -> 0 `i `uc ]
+"186
+[; ;main.c: 186:         } else {
+}
+[e $U 1314  ]
+[e :U 1313 ]
+{
+"187
+[; ;main.c: 187:             DEL_Allume(del_niveau(angle));
+[e ( _DEL_Allume (1 ( _del_niveau (1 _angle ]
+"188
+[; ;main.c: 188:         }
+}
+[e :U 1314 ]
+"190
+[; ;main.c: 190:         if (tick_message > 0u) {
+[e $ ! > -> _tick_message `ui -> 0 `ui 1315  ]
+{
+"191
+[; ;main.c: 191:             tick_message--;
+[e -- _tick_message -> -> 1 `i `uc ]
+"192
+[; ;main.c: 192:             continue;
+[e $U 1294  ]
+"193
+[; ;main.c: 193:         }
+}
+[e :U 1315 ]
+"194
+[; ;main.c: 194:         if (++tick_aff >= 4u) {
+[e $ ! >= -> =+ _tick_aff -> -> 1 `i `uc `ui -> 4 `ui 1316  ]
+{
+"195
+[; ;main.c: 195:             tick_aff = 0;
+[e = _tick_aff -> -> 0 `i `uc ]
+"196
+[; ;main.c: 196:             if (a_plat) {
+[e $ ! != -> _a_plat `i -> 0 `i 1317  ]
+{
+"197
+[; ;main.c: 197:                 AFF_Texte("FLAt", 0);
+[e ( _AFF_Texte (2 , :s 4C -> -> 0 `i `uc ]
+"198
+[; ;main.c: 198:             } else {
+}
+[e $U 1318  ]
+[e :U 1317 ]
+{
+"199
+[; ;main.c: 199:                 AFF_Angle(angle);
+[e ( _AFF_Angle (1 _angle ]
+"200
+[; ;main.c: 200:             }
+}
+[e :U 1318 ]
+"201
+[; ;main.c: 201:         }
+}
+[e :U 1316 ]
+"202
+[; ;main.c: 202:     }
+}
+[e :U 1294 ]
+[e $U 1295  ]
+[e :U 1296 ]
+"203
+[; ;main.c: 203: }
+[e :UE 1290 ]
+}
+[a 4C 70 76 65 116 0 ]
+[a 1C 56 56 56 56 0 ]
+[a 2C 69 114 114 32 0 ]
+[a 3C 65 98 83 32 0 ]

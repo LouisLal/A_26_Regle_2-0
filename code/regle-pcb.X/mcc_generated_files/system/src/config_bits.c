@@ -40,7 +40,7 @@
 #pragma config RSTOSC = HFINT32    // Reset Oscillator Selection bits->HFINTOSC with OSCFRQ= 32 MHz and CDIV = 1:1
 #pragma config CLKOUTEN = OFF    // Clock Out Enable bit->CLKOUT function is disabled; i/o or oscillator function on OSC2
 #pragma config VBATEN = OFF    // VBAT Pin Enable bit->VBAT functionality is disabled
-#pragma config LCDPEN = ON    // LCD Charge Pump Mode Enable bit->LCD Charge Pump is enabled
+#pragma config LCDPEN = OFF    // LCD Charge Pump Mode Enable bit->LCD Charge Pump is disabled (RB2/RB3 = SEG10/SEG11)
 #pragma config CSWEN = ON    // Clock Switch Enable bit->Writing to NOSC and NDIV is allowed
 #pragma config FCMEN = ON    // Fail-Safe Clock Monitor Enable bit->FSCM timer enabled
 
